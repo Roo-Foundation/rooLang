@@ -1,4 +1,4 @@
-from .lexer import generator
+from lexer import generator
 
 from rply import ParserGenerator, Token
 
@@ -10,4 +10,4 @@ def string(p: list) -> str:
 
 @parser.production("expr: rooPog string")
 def rooPog(p: list) -> None:
-    
+    print(p)
