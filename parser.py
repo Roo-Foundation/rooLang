@@ -24,3 +24,4 @@ def rooPog(p: List[...]) -> None:
 def rooBulli_error_handler(token):
     raise rooBulli(f"rooBulli: Unexpected {token.gettokentype()} in {token.getsourcepos()}\nvalue : '{token.getstr()}'")
 
+parser = parser.build()
