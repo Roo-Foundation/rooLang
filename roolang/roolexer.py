@@ -9,5 +9,3 @@ generator.ignore(r"rooWhisper.*")  # Ignore single line comment
 generator.add("STRING", r'''("[^"\\]*(\\.[^"\\]*)*"|'[^'\\]*(\\.[^'\\]*)*')''')
 
 generator.add("rooPog", "rooPog")
-
-lexer = generator.build()

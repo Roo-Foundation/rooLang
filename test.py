@@ -1,2 +1,2 @@
-from lexer import generator
-from parser import parser 
+# from lexer import generator
+# from parser import parser 
