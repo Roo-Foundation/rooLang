@@ -10,6 +10,7 @@ setup(
     url='https://github.com/rooLang/rooLang',
     project_urls={
         "Issue tracker": "https://github.com/rooLang/rooLang/issues",
+        "Discord": "https://discord.gg/n625ahZAtZ",
     },
     version="0.0.1a",
     packages=find_packages(),
